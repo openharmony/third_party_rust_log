@@ -316,6 +316,7 @@
     html_favicon_url = "https://www.rust-lang.org/favicon.ico",
     html_root_url = "https://docs.rs/log/0.4.17"
 )]
+#![allow(clippy::derive_hash_xor_eq)]
 #![warn(missing_docs)]
 #![deny(missing_debug_implementations, unconditional_recursion)]
 #![cfg_attr(all(not(feature = "std"), not(test)), no_std)]
