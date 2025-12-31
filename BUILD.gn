@@ -27,4 +27,7 @@ ohos_cargo_crate("lib") {
   deps = [ "//third_party/rust/crates/cfg-if:lib" ]
   build_root = "build.rs"
   build_sources = [ "build.rs" ]
+  module_output_extension = ".rlib"
+  part_name = "rust_log"
+  subsystem_name = "thirdparty"
 }
